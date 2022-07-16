@@ -1,0 +1,38 @@
+body {
+  background-color: #2B283A;
+  padding-top: 5%;
+}
+.dice {
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  height: 500px;
+  margin: auto;
+}
+
+.dice__elements {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+}
+
+button {
+  background: #5035FF;
+  width: 130px;
+  height: 45px;
+  border: none;
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dice__discription {
+  width: 50%;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 5px;
+}
